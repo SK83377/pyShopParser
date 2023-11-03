@@ -17,7 +17,7 @@ def parseShop():
     products = []
     cat = "CARNE"
     subCat = "Promozioni"
-    url = 'https://www.carrefour.it/spesa-online/carne/#size=75&position=3960'
+    url = '*'
     resp = requests.get(url)
     html = resp.content
     soup = BeautifulSoup(html, 'html.parser' )
